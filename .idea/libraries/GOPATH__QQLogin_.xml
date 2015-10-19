@@ -1,53 +1,16 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;QQLogin&gt;">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../golang.org" />
-      <root url="file://$PROJECT_DIR$/../gopkg.in" />
-      <root url="file://$PROJECT_DIR$/../Azber-web" />
-      <root url="file://$PROJECT_DIR$/../GsDataSpider" />
-      <root url="file://$PROJECT_DIR$/../Azber" />
-      <root url="file://$PROJECT_DIR$/../coding.net" />
-      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../QQLib-python" />
+      <root url="file://$PROJECT_DIR$/../Azber-go" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
     <excluded>
-      <root url="file://$PROJECT_DIR$/../github.com/robfig/config/testdata" />
-      <root url="file://$PROJECT_DIR$/../Azber-web/.idea" />
-      <root url="file://$PROJECT_DIR$/../Azber/.idea" />
-      <root url="file://$PROJECT_DIR$/../github.com/robfig/config/.git" />
-      <root url="file://$PROJECT_DIR$/../golang.org/x/net/html/testdata" />
-      <root url="file://$PROJECT_DIR$/../GsDataSpider/.idea" />
-      <root url="file://$PROJECT_DIR$/../golang.org/x/crypto/sha3/testdata" />
-      <root url="file://$PROJECT_DIR$/../golang.org/x/crypto/ssh/testdata" />
-      <root url="file://$PROJECT_DIR$/../github.com/robfig/pathtree/.git" />
-      <root url="file://$PROJECT_DIR$/../golang.org/x/net/html/charset/testdata" />
-      <root url="file://$PROJECT_DIR$/../golang.org/x/net/http2/testdata" />
-      <root url="file://$PROJECT_DIR$/../github.com/revel/cmd/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/agtorre/gocolorize/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/revel/revel/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/andybalholm/cascadia/.git" />
-      <root url="file://$PROJECT_DIR$/../golang.org/x/crypto/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/codahale/chacha20/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/go-sql-driver/mysql/.git" />
-      <root url="file://$PROJECT_DIR$/../coding.net/azber/Azber-go/.git" />
-      <root url="file://$PROJECT_DIR$/../coding.net/azber/Azber-go/.idea" />
-      <root url="file://$PROJECT_DIR$/../github.com/go-martini/martini/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/azber/Azber-go/.git" />
+      <root url="file://$PROJECT_DIR$/../Azber-go/.idea" />
+      <root url="file://$PROJECT_DIR$/../QQLib-python/.idea" />
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$PROJECT_DIR$/../github.com/bitly/go-simplejson/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/shadowsocks/shadowsocks-go/shadowsocks/testdata" />
-      <root url="file://$PROJECT_DIR$/../github.com/revel/revel/testdata" />
-      <root url="file://$PROJECT_DIR$/../github.com/armon/go-socks5/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/azber/Azber-go/.idea" />
-      <root url="file://$PROJECT_DIR$/../github.com/PuerkitoBio/goquery/testdata" />
-      <root url="file://$PROJECT_DIR$/../Azber/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/revel/modules/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/shadowsocks/shadowsocks-go/.git" />
-      <root url="file://$PROJECT_DIR$/../gopkg.in/fsnotify.v1/.git" />
-      <root url="file://$PROJECT_DIR$/../golang.org/x/net/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/codegangsta/inject/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/PuerkitoBio/goquery/.git" />
+      <root url="file://$PROJECT_DIR$/../QQLib-python/.git" />
     </excluded>
   </library>
 </component>

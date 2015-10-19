@@ -8,6 +8,7 @@ import (
 	"encoding/hex"
 	"net/http"
 	"strings"
+	"os"
 )
 
 var (
@@ -69,7 +70,7 @@ func Check(uin string, login_sig string) {
 		vcode := v[1]
 		//		uin := v[2]
 		if v[0] != "0" {
-			callCap_union_show(UIN, vcode)
+			getVerifyCode(vcode)
 		}
 		//		Login(uin, vcode, PASSWORD, login_sig)
 	}
@@ -138,7 +139,6 @@ func callCap_union_show(uin string, vcode string) string {
 	resp, err := httpClient.client.Get(url)
 	if err != nil {
 		panic(err)
-		return nil
 	}else {
 		defer resp.Body.Close()
 		data, err := ioutil.ReadAll(resp.Body)
@@ -157,13 +157,21 @@ func getVerifyCode(vcode string) string {
 	sig := callCap_union_show(UIN, vcode)
 	url := "http://captcha.qq.com/getimgbysig?aid=" + UIN + "&uin=" + UIN + "&sig=" + sig
 
-	resp,err := httpClient.client.Get(url)
+	resp, err := httpClient.client.Get(url)
 	if err != nil {
 		panic(err)
-	}else{
+	}else {
 		defer resp.Body.Close()
+		userFile := "temp.png"
+		fout, err := os.Open(userFile)
+		defer fout.Close()
+		if err != nil {
+			fmt.Println(userFile, err)
+			return ""
+		}
 
-
+		data, err := ioutil.ReadAll(resp.Body)
+		fout.Write(data)
 	}
 	return vcode
 }

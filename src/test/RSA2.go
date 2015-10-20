@@ -1,15 +1,14 @@
 package main
 
-
 import (
-	"github.com/robertkrimen/otto"
 	"fmt"
+	"github.com/robertkrimen/otto"
 )
 
 func main() {
 
 	vm := otto.New()
-	_,err := vm.Run(`
+	_, err := vm.Run(`
 		function haha(str){
 			console.log(str)
 		}

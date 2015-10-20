@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/robertkrimen/otto"
 	"fmt"
+	"github.com/robertkrimen/otto"
 )
 
 func main() {
 
 	vm := otto.New()
-	 _,err := vm.Run(`
+	_, err := vm.Run(`
 	 var window = {};
 var RSA = function () {
     function h(z, t) {
@@ -1682,9 +1682,7 @@ var Encryption = function() {
 
 	`)
 
-
-
-	value,err := vm.Run("Encryption().getEncryption('a123789', '776082557', '!FOX')")
+	value, err := vm.Run("Encryption().getEncryption('a123789', '776082557', '!FOX')")
 	if err != nil {
 		panic(err)
 	}

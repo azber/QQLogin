@@ -3,6 +3,8 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../QQLib-python" />
       <root url="file://$PROJECT_DIR$/../Azber-go" />
+      <root url="file://$PROJECT_DIR$/../.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
@@ -10,6 +12,8 @@
       <root url="file://$PROJECT_DIR$/../Azber-go/.idea" />
       <root url="file://$PROJECT_DIR$/../QQLib-python/.idea" />
       <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../github.com/robertkrimen/otto/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/bitly/go-simplejson/.git" />
       <root url="file://$PROJECT_DIR$/../QQLib-python/.git" />
     </excluded>
   </library>

@@ -1,12 +1,12 @@
 package protocol
 
 import (
+	"fmt"
 	"github.com/robertkrimen/otto"
-    "fmt"
 )
 
 var (
-	vm *otto.Otto;
+	vm *otto.Otto
 )
 
 func init() {
@@ -1687,12 +1687,12 @@ var Encryption = function() {
 
 	if err != nil {
 		panic(err)
-	}else {
-        fmt.Println("otto success")
+	} else {
+		fmt.Println("otto success")
 	}
 }
 
 func JsRun(src interface{}) (otto.Value, error) {
-    fmt.Println(src)
+	fmt.Println(src)
 	return vm.Run(src)
 }
